@@ -1,0 +1,88 @@
+body{
+    background-color: hotpink;
+}
+#particles-js{
+    
+    /* position: absolute; */
+    width: 100%;
+    height: 175vh;
+}
+
+.container{
+    width: 70%;
+    margin: 55px auto;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    bottom: 0;
+    left:0;
+}
+.container button{
+    width: 180px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 6px;
+    padding: 6px 12px;
+    border: 3px solid rgb(141, 246, 246);
+    border-radius: 10px;
+}
+.container button:hover{
+    background-color: tomato;
+    border: 3px solid rgb(66, 48, 48);
+    color: white;
+}
+
+.container button:focus{
+    background-color: salmon;
+}
+
+.box{
+    width: 90%;
+    margin: auto;
+    top: 30%;
+    right: 0;
+    bottom: 0;
+    left:0;
+    position: absolute;
+}
+
+.box .mix{
+    width: 20%;
+    margin: auto;
+    display: inline-block;
+    background-color: transparent;
+}
+.box img{
+    width: 90%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and ( max-width: 1050px) 
+{
+    .box .mix{
+        width: 25%;
+    }
+}
+
+@media screen and ( max-width: 800px) 
+{
+    .box{
+        top: 40%;
+    }
+    .box .mix{
+        width: 40%;
+    }
+}
+
+@media screen and ( max-width: 550px) 
+{
+    .box{
+        top: 60%;
+    }
+    .box .mix{
+        width: 100%;
+    }
+}
