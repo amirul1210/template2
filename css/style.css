@@ -40,7 +40,7 @@ body{
 .box{
     width: 90%;
     margin: auto;
-    top: 30%;
+    top: 40%;
     right: 0;
     bottom: 0;
     left:0;
@@ -81,6 +81,7 @@ body{
 {
     .box{
         top: 60%;
+        width:100%;
     }
     .box .mix{
         width: 100%;
